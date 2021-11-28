@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { useNavigate } from 'react-router'
 
 import LiveStocks from '../LiveStocks'
@@ -23,9 +23,14 @@ function Navbar(props) {
         
     }
 
-    if(!invert) {
-        window.addEventListener('scroll',cssChange);
-    }
+    useEffect(() => {
+        if(!invert) {
+            window.addEventListener('scroll',cssChange);
+        }
+        return () => {
+            window.removeEventListener('scroll',cssChange)
+        }
+    }, [])
     
 
     return (
