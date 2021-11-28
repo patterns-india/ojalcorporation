@@ -1,0 +1,72 @@
+.Home {
+  animation: fadeIn 1s;
+  &__Top {
+    background-color: #e0e0e0;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__Graph {
+    background-color: #e0e0e0;
+    padding: 200px 8% 80px 8%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__Greetings {
+    background-color: #385662;
+    color: white;
+    padding: 80px 0;
+
+    &__Head {
+      font-family: "Lustria";
+
+      &--heading {
+        font-size: 32px;
+        line-height: 130%;
+      }
+    }
+
+    &__Video {
+      background-color: whitesmoke;
+      color: black;
+      height: 400px;
+      width: 700px;
+      margin: 50px auto;
+      border: 1px solid white;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__Text {
+      font-family: "Arvo", serif;
+      width: 80%;
+      margin: 50px auto;
+      font-size: 20px;
+      line-height: 130%;
+      font-weight: 100;
+    }
+
+    &__Explore {
+      color: rgb(255, 200, 47);
+      font-family: "Lustria";
+      font-weight: 600;
+      margin: 20px auto;
+      padding: 3px 0;
+      font-size: 16px;
+      cursor: pointer;
+      //   text-decoration: underline;
+      width: fit-content;
+      border-bottom: 2px solid rgba(255, 255, 255, 0);
+
+      transition: all 300ms;
+
+      &:hover {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.774);
+      }
+    }
+  }
+}

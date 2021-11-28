@@ -1,0 +1,52 @@
+.LogoWelcome {
+  background-color: rgb(10, 10, 10);
+  border-radius: 30px;
+  color: white;
+  width: 650px;
+  height: fit-content;
+  padding: 30px 30px;
+  margin: 0 auto;
+  // transform: translateY(-30%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 70%);
+  // transform: translateY(70%);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__Logo {
+    width: 30%;
+
+    &--title {
+      font-family: "Lustria";
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    &--subtitle {
+      margin-top: 2px;
+      font-weight: lighter;
+      font-size: 12px;
+      color: #daa520;
+    }
+  }
+
+  &__Text {
+    width: 67%;
+
+    &--heading {
+      font-family: "Lustria";
+      font-size: 26px;
+      line-height: 130%;
+    }
+
+    &--subtext {
+      margin: 10px auto 0 auto;
+      width: 90%;
+      color: rgb(218, 218, 218);
+    }
+  }
+}

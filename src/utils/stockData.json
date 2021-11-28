@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "SENSEX",
+        "value" : "605401.44",
+        "change" : "2.71",
+        "changeType" : 1 
+    },
+    {
+        "name" : "SENSEX",
+        "value" : "804401.44",
+        "change" : "1.71",
+        "changeType" : 2 
+    },
+    {
+        "name" : "SENSEX",
+        "value" : "605401.44",
+        "change" : "2.71",
+        "changeType" : 1
+    },
+    {
+        "name" : "SENSEX",
+        "value" : "605401.44",
+        "change" : "2.71",
+        "changeType" : 1
+    },
+    {
+        "name" : "SENSEX",
+        "value" : "605401.44",
+        "change" : "2.71",
+        "changeType" : 1
+    },
+    {
+        "name" : "SENSEX",
+        "value" : "804401.44",
+        "change" : "1.71",
+        "changeType" : 2 
+    },
+    {
+        "name" : "SENSEX",
+        "value" : "605401.44",
+        "change" : "2.71",
+        "changeType" : 1
+    },
+    {
+        "name" : "SENSEX",
+        "value" : "804401.44",
+        "change" : "1.71",
+        "changeType" : 2
+    },
+    {
+        "name" : "SENSEX",
+        "value" : "804401.44",
+        "change" : "1.71",
+        "changeType" : 2
+    },
+    {
+        "name" : "SENSEX",
+        "value" : "605401.44",
+        "change" : "2.71",
+        "changeType" : 1
+    }
+]

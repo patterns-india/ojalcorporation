@@ -1,0 +1,40 @@
+.Footer {
+  background-color: #202020;
+  padding: 50px;
+  max-width: 100vw;
+
+  &__Container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > div {
+      margin: 0 20px;
+      //   border: 1px solid white;
+    }
+    &--heading {
+      margin-top: 5px;
+      font-family: "Lustria";
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    &--subheading {
+      font-family: "Arvo", sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+    }
+
+    &--copyright {
+      font-family: "Roboto", sans-serif;
+    }
+
+    &--addr {
+      font-family: "Roboto", sans-serif;
+      margin: 10px auto 0 auto;
+      width: 75%;
+      font-size: 14px;
+    }
+  }
+}
