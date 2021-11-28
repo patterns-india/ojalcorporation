@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ojalcorporation/static/css/main.54611f4d.chunk.css",
+    "main.js": "/ojalcorporation/static/js/main.061390d2.chunk.js",
+    "main.js.map": "/ojalcorporation/static/js/main.061390d2.chunk.js.map",
+    "runtime-main.js": "/ojalcorporation/static/js/runtime-main.14fa0dff.js",
+    "runtime-main.js.map": "/ojalcorporation/static/js/runtime-main.14fa0dff.js.map",
+    "static/css/2.403d6bc7.chunk.css": "/ojalcorporation/static/css/2.403d6bc7.chunk.css",
+    "static/js/2.a9dcabd4.chunk.js": "/ojalcorporation/static/js/2.a9dcabd4.chunk.js",
+    "static/js/2.a9dcabd4.chunk.js.map": "/ojalcorporation/static/js/2.a9dcabd4.chunk.js.map",
+    "index.html": "/ojalcorporation/index.html",
+    "static/css/2.403d6bc7.chunk.css.map": "/ojalcorporation/static/css/2.403d6bc7.chunk.css.map",
+    "static/css/main.54611f4d.chunk.css.map": "/ojalcorporation/static/css/main.54611f4d.chunk.css.map",
+    "static/js/2.a9dcabd4.chunk.js.LICENSE.txt": "/ojalcorporation/static/js/2.a9dcabd4.chunk.js.LICENSE.txt",
+    "static/media/Trading.f052b5fb.jpg": "/ojalcorporation/static/media/Trading.f052b5fb.jpg",
+    "static/media/algo-trading.eca7e54f.jpg": "/ojalcorporation/static/media/algo-trading.eca7e54f.jpg",
+    "static/media/index.css": "/ojalcorporation/static/media/cerebri.52220a8e.ttf",
+    "static/media/diy-investment.c3ea540f.jpg": "/ojalcorporation/static/media/diy-investment.c3ea540f.jpg",
+    "static/media/down-arrow.0c8f5344.png": "/ojalcorporation/static/media/down-arrow.0c8f5344.png",
+    "static/media/graph.bfbfc138.jpg": "/ojalcorporation/static/media/graph.bfbfc138.jpg",
+    "static/media/homeBanner.66ccff56.jpg": "/ojalcorporation/static/media/homeBanner.66ccff56.jpg",
+    "static/media/logo-circle.6edde27b.png": "/ojalcorporation/static/media/logo-circle.6edde27b.png",
+    "static/media/mutual-funds.9f472c3b.jpg": "/ojalcorporation/static/media/mutual-funds.9f472c3b.jpg",
+    "static/media/portfolio-management.d2dd88ca.jpg": "/ojalcorporation/static/media/portfolio-management.d2dd88ca.jpg",
+    "static/media/slick-theme.css": "/ojalcorporation/static/media/slick.c94f7671.ttf",
+    "static/media/up-arrow.e205dee7.png": "/ojalcorporation/static/media/up-arrow.e205dee7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14fa0dff.js",
+    "static/css/2.403d6bc7.chunk.css",
+    "static/js/2.a9dcabd4.chunk.js",
+    "static/css/main.54611f4d.chunk.css",
+    "static/js/main.061390d2.chunk.js"
+  ]
+}
