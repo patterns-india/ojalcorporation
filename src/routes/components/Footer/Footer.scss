@@ -1,10 +1,40 @@
 .Footer {
   background-color: #202020;
+  color: white;
   padding: 50px;
   max-width: 100vw;
 
+  &__Form{
+    margin: 0 0 60px 0;
+    padding: 0 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+    &__Left{
+      padding: 0 30px;
+      border-right: 1px solid #e5e5e5;
+      &__Row{
+        margin: 10px 0;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+        align-items: center;
+      }
+    }
+
+    &__Right{
+      padding: 0 20px;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      row-gap: 10px;
+    }
+    
+  }
+
   &__Container {
-    color: white;
+    
     display: flex;
     align-items: center;
     justify-content: center;

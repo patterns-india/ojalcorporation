@@ -3,18 +3,26 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Cerebri" !important;
+  background-color: #e0e0e0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+html {
+  overflow-x: hidden;
+}
 
+*{
+  box-sizing: border-box !important;
+}
 @font-face {
   font-family: "Cerebri";
   src: url(./resources/fonts/cerebri.ttf) format("truetype");
@@ -33,9 +41,15 @@ code {
   font-weight: bold;
 }
 
-body {
-  font-family: "Cerebri";
-  background-color: #e0e0e0;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 * {

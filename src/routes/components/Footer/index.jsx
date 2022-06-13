@@ -1,4 +1,5 @@
 import React from 'react'
+import { Input,Button,Icon } from 'semantic-ui-react'
 import logo from '../../../resources/images/logo-circle.png'
 import './Footer.scss'
 
